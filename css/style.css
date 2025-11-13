@@ -3,8 +3,40 @@
     padding: 0;
 }
 body{
-    background: linear-gradient(
-        rgb(22, 207, 240),
-        rgb(108, 107, 180) 
-    );
+    background: url(../img/fondo.jpg);
+    background-size:100%;
+}
+main{
+    margin-top: 30%;
+    display: inline-flex;
+}
+h1{
+    background: rgba(255, 255, 255, 0.315);
+    width: 350px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.content-cuadro{
+    display: flex;
+}
+.cuadro{
+    background: rgb(89, 149, 226);
+    width: 120px;
+    color: white;
+    height: 200px;
+    overflow: hidden;
+}
+.cuadro h2{
+    position: absolute;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+.cuadro img{
+    width: 120%;
+    z-index: 0;
 }
